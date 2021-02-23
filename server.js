@@ -1005,13 +1005,6 @@ message.channel.send(embed)
 }
 });
 
-client.on("ready", () => {
-
-  console.log(`Logged in as ${client.user.username}!`);
-
-  client.user.setActivity('BAWAN', { type: "Watching" })
-                             //lera zher botaka ba dli xosh shte bnusa
-});
 
 
 
