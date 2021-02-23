@@ -10,11 +10,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "discord.js": "^11.4.2",
-    "express": "^4.16.4"
+    "express": "^4.17.1",
+    "discord.js": "^12.5.1"
   },
   "engines": {
-    "node": "8.x"
+    "node": "12.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/hello-express"
