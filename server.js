@@ -21,6 +21,8 @@ client.on("message", message => {
 ***+say***
 ***+love =>+kiss +bomm +hug***
 ***+calendar***
+
+***+kurdish***
   
 ***+covid***
 ***+perms +bot +servers***
@@ -1026,3 +1028,43 @@ client.on('message',  (message) => {
 
 message.channel.send(embed)
         }})
+
+
+client.on("message", message => {
+ if (message.content === "+kurdish") {       
+  const embed = new Discord.MessageEmbed()
+      .setColor("#ffff00")
+      .setThumbnail(message.author.avatarURL())
+      .setDescription(`
+ 
+***پێشگری بۆت => + فرمانەکان
+
++banباند =>unbnaلەبردنی باند +muteناتوانی چات بکە +unmuteلەبردای چات ومیوت +kick  کیک
+
++avatar => وێنەی سێرڤەر
+
++roleinfo +serverinfo +channelinfo زانیار چات +userroleزانیاری ڕۆڵ
+
++vmute>میوت کردن و لە بردن +vunmute +کیک کردن +vkick
+
++قوفڵ +لە بەردنی قو فڵ  +Lock+unlock
+
++خاوێنکردنەوەی+clear 
+
++زیادکردنی لابردنی ڕۆڵی ڕۆڵ +role add  +roleremove
+    
++بڵێ+say
+
++love =>+kiss +boom +hug
+  
++covid
++perms ++bot***
+ 
+`)
+  
+message.channel.send(embed)
+ 
+}
+});
+
+
