@@ -9,23 +9,34 @@ client.on("message", message => {
       .setThumbnail(message.author.avatarURL())
       .setDescription(`
  
-***Bot Prefix => +  Commands***
-***+ban =>unbna +mute +unmute +kick***
-***+avatar =>server avatar***
-***+roleinfo +server +channelinfo +userrole***
-***+vmute> +vunmute +deaf +vkick***
-***+Lock +unlock***
-***+clear***
-***+add role roleremove***
-***+ping*** 
-***+say***
-***+love =>+kiss +bomm +hug***
-***+calendar***
-
-***+kurdish***
-  
-***+covid***
-***+perms +bot +servers***
+**INFORMATION BOT 
+━─━─━─━─━─━─━
+| THE WORK OF THIS BOT
+:|:Moderation
+:|:Public
+:|:info
+━─━─━─━─━─━─━
+Moderation
++ban>+unban
++kick>+mute>+unmute
++vmute>+vunmute>+deaf>+kick
++Lock>+unlock>+clear
++add role>+ roleremove
+━─━─━─━─━─━─━
+Public
++ping>+calendar>+say
++covid>+perms+server>+bot
++avatar>+server avatar
++roleinfo>channelinfo
++kurdish>+love>+kiss>+bomm>+hug
+━─━─━─━─━─━─━
+info Bot Commands
+【+Lock】【+unlock】
+【+ban】【+unban】【+kick】
+ 【+vmute】【+vunmute】【+vkick】【+deaf】【+mute】
+【+unmute】【+avatar】【+server avatar】【+ping】【+say】【+roleinfo】【+server】【+channelinfo】
+【+clear】【+love】【+kiss】【+bomm】【+hug】【+calendar】【+kurdish】【+covid】【+perms】【+bot】
+【+addrole】【+roleremove】**
 `)
   
 message.channel.send(embed)
