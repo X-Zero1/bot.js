@@ -1061,7 +1061,7 @@ message.channel.send(embed)
 });
 
 function randomStatus() {
-    let status = ["","+kurdish","+help"] 
+    let status = ["+help"] 
     let rstatus = Math.floor(Math.random() * status.length);
  
     client.user.setActivity(status[rstatus], {type: "PLAYING",}
