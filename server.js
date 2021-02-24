@@ -1069,7 +1069,7 @@ function randomStatus() {
 setInterval(randomStatus, 2000)
 client.on ('message', async (Fathy) => {
    if (!Fathy.guild || Fathy.author.bot) return false;
-   var prefix = 's!';
+   var prefix = '+';
    if (Fathy.content == prefix + 'ping') {
      const msg = await Fathy.channel.send ("Alpha");
      msg.delete ();
