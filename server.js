@@ -9,28 +9,28 @@ client.on("message", message => {
       .setThumbnail(message.author.avatarURL())
       .setDescription(`
  
-**INFORMATION BOT 
+**✅INFORMATION BOT 🤖
 ━─━─━─━─━─━─━
-| THE WORK OF THIS BOT
-:|:Moderation
-:|:Public
-:|:info
+| THE WORK OF THIS BOT📌
+:|:Moderation🤖
+:|:Public✅
+:|:info✅
 ━─━─━─━─━─━─━
-Moderation
+✅Moderation🔐
 +ban>+unban
 +kick>+mute>+unmute
 +vmute>+vunmute>+deaf>+kick
 +Lock>+unlock>+clear
 +add role>+ roleremove
 ━─━─━─━─━─━─━
-Public
+✅Public📌
 +ping>+calendar>+say
 +covid>+perms+server>+bot
 +avatar>+server avatar
 +roleinfo>channelinfo
 +kurdish>+love>+kiss>+bomm>+hug
 ━─━─━─━─━─━─━
-info Bot Commands
+✅info Bot🤖Commands🤖
 【+Lock】【+unlock】
 【+ban】【+unban】【+kick】
  【+vmute】【+vunmute】【+vkick】【+deaf】【+mute】
