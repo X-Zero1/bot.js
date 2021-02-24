@@ -1060,4 +1060,10 @@ message.channel.send(embed)
 }
 });
 
-
+function randomStatus() {
+    let status = ["By SeVO","HaMA","s!help"] 
+    let rstatus = Math.floor(Math.random() * status.length);
+ 
+    client.user.setActivity(status[rstatus], {type: "PLAYING",}
+)}; 
+setInterval(randomStatus, 2000)
