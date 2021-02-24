@@ -1067,13 +1067,3 @@ function randomStatus() {
     client.user.setActivity(status[rstatus], {type: "PLAYING",}
 )}; 
 setInterval(randomStatus, 2000)
-
-client.on ('message', async (Fathy) => {
-   if (!Fathy.guild || Fathy.author.bot) return false;
-   var prefix = '+';
-   if (Fathy.content == prefix + 'ping') {
-     const msg = await Fathy.channel.send ("Alpha");
-     msg.delete ();
-     Fathy.channel.send (\``javascript\nDiscord API: ${Math.round (client.ping)}ms\nTime taken: ${msg.createdTimestamp - Fathy.createdTimestamp}\n``` `)
-   }
- })
