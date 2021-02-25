@@ -26,7 +26,7 @@ client.on("message", message => {
 ✅Public📌
 +ping>+calendar>+say
 +covid>+perms+server>+bot
-+avatar>+server avatar
++avatar>+server avatar>+rank
 +roleinfo>channelinfo
 +kurdish>+love>+kiss>+bomm>+hug
 ━─━─━─━─━─━─━
@@ -36,7 +36,7 @@ client.on("message", message => {
  【+vmute】【+vunmute】【+vkick】【+deaf】【+mute】
 【+unmute】【+avatar】【+server avatar】【+ping】【+say】【+roleinfo】【+server】【+channelinfo】
 【+clear】【+love】【+kiss】【+bomm】【+hug】【+calendar】【+kurdish】【+covid】【+perms】【+bot】
-【+addrole】【+roleremove】**
+【+addrole】【+roleremove】【+rank】**
 `)
   
 message.channel.send(embed)
