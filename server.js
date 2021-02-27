@@ -1088,6 +1088,17 @@ client.on ('message', async (Fathy) => {
    }
  })
 
+client.on('message', message => {
+  if (message.channel.id === "815221857854029876'") {
+   
+    
+    
+    message.react('⚡')
+      .then(() => {
+        message.react('⚡')
+      });
+  }
+});
 client.on('message',() =>{
 let spam = client.channels.cache.find(channel=> channel.id === '815221857854029876');
 setInterval(() =>{
