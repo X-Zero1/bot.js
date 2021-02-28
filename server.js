@@ -25,7 +25,7 @@ client.on("message", message => {
 +Lock>+unlock>+clear
 +add role>+ roleremove
 ━─━─━─━─━─━─━
-✅Public📌
+✅Public
 +ping>+calendar>+say
 +covid>+perms+server>+bot
 +avatar>+server avatar>+rank
