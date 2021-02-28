@@ -1087,20 +1087,3 @@ client.on ('message', async (Fathy) => {
      Fathy.channel.send (`\`\`\`javascript\nDiscord API: ${Math.round (client.ping)}ms\nTime taken: ${msg.createdTimestamp - Fathy.createdTimestamp}\n\`\`\` `)
    }
  })
-
-client.on('message', message => {
-  if (message.channel.id === "815221857854029876'") {
-   
-    
-    
-    message.react('❤')
-      .then(() => {
-        message.react('❤')
-      });
-  }
-});
-client.on('message',() =>{
-let spam = client.channels.cache.find(channel=> channel.id === '815221857854029876');
-setInterval(() =>{
-  spam.send("  99 up kurdishking 99 up  ")}
-  ,5000)})
