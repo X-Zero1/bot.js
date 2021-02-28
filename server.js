@@ -8,8 +8,9 @@ client.on("message", message => {
   .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/attachments/755636694035857438/814802781474127882/image4-1.gif")
       .setColor("RANDOM")
       .setThumbnail(message.author.avatarURL())
+  .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/802384066154070036.gif")
       .setDescription(`
- .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/802384066154070036.gif")
+ 
 **✅INFORMATION BOT 🤖
 ━─━─━─━─━─━─━
 | THE WORK OF THIS BOT📌
