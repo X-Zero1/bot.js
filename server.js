@@ -1072,7 +1072,7 @@ message.channel.send(embed)
 });
 
 function randomStatus() {
-    let status = ["+help"] 
+    let status = ["+help", "+!help<music command] 
     let rstatus = Math.floor(Math.random() * status.length);
  
     client.user.setActivity(status[rstatus], {type: "PLAYING",}
