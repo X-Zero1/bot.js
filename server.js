@@ -9,7 +9,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .setThumbnail(message.author.avatarURL())
       .setDescription(`
- 
+ .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/802384066154070036.gif")
 **✅INFORMATION BOT 🤖
 ━─━─━─━─━─━─━
 | THE WORK OF THIS BOT📌
