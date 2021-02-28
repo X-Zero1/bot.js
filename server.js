@@ -5,7 +5,7 @@ client.login("ODEwNzcwMDkyODMyOTgxMDI0.YCoefQ.GU2v_yiGQp4XjUqAiXOo_HsIJoc")
 client.on("message", message => {
  if (message.content === "+help") {       
   const embed = new Discord.MessageEmbed()
-  setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/attachments/755636694035857438/814802781474127882/image4-1.gif")
+  .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/attachments/755636694035857438/814802781474127882/image4-1.gif")
       .setColor("RANDOM")
       .setThumbnail(message.author.avatarURL())
       .setDescription(`
