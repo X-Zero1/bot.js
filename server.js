@@ -9,6 +9,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .setThumbnail(message.author.avatarURL())
   .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/802384066154070036.gif")
+    message.react("✅")
       .setDescription(`
  
 **✅INFORMATION BOT 🤖
@@ -40,7 +41,7 @@ client.on("message", message => {
 【+clear】【+love】【+kiss】【+bomm】【+hug】【+calendar】【+kurdish】【+covid】【+perms】【+bot】
 【+addrole】【+roleremove】【+rank】**
 `)
-  message.react("✅")
+  
     .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/768871868345221160.gif")
 message.channel.send(embed)
  
