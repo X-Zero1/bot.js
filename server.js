@@ -950,6 +950,7 @@ client.on('message', function(message) {
     if(message.content.startsWith(prefix + "say")) {
       let say = message.content.split(" ").slice(1).join(" ");
       const embed = new Discord.MessageEmbed()
+      .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/768498314118299658.gif") 
       .setColor("RANDOM")
       .setDescription(`${say}`)
       message.channel.send(embed)
