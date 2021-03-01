@@ -1,6 +1,8 @@
 const Discord = require('discord.js')
 const client = new Discord.Client
 const prefix = "+"
+const cooldown = new Set();
+const cdtime = 7;
 client.login("ODEwNzcwMDkyODMyOTgxMDI0.YCoefQ.GU2v_yiGQp4XjUqAiXOo_HsIJoc")
 client.on("message", message => {
  if (message.content === "+help") {       
