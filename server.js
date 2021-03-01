@@ -40,6 +40,7 @@ client.on("message", message => {
 【+clear】【+love】【+kiss】【+bomm】【+hug】【+calendar】【+kurdish】【+covid】【+perms】【+bot】
 【+addrole】【+roleremove】【+rank】**
 `)
+  message.react("✅")
     .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/768871868345221160.gif")
 message.channel.send(embed)
  
