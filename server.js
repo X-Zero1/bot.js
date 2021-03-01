@@ -9,7 +9,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .setThumbnail(message.author.avatarURL())
   .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/802384066154070036.gif")
-    message.react("✅")
+    
       .setDescription(`
  
 **✅INFORMATION BOT 🤖
@@ -264,7 +264,7 @@ if(!message.member.hasPermission('MANAGE_CHANNELS')) return
  
  let bwan = new Discord.MessageEmbed()
         
-      
+        .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/783663031846305802.gif")
               .setFooter('🔒')       
                 .setColor('RANDOM') 
                 .setTitle('CHANNEL CLOSED')
@@ -290,6 +290,7 @@ client.on('message', message => {
         if(!message.channel.guild) return message.reply('SORRY IM IN SERVER');
  let bwan = new Discord.MessageEmbed()
                     
+        .setAuthor("Commands of "+client.user.username,"https://cdn.discordapp.com/emojis/783663031846305802.gif")
                 .setFooter("🔓")
                 .setColor('RANDOM') 
                 .setTitle('CHANNEL NOW OPEN')
